@@ -1,0 +1,201 @@
+@media (max-width: 750px) { 
+	.iphone{
+		stroke-width:10px;
+	}
+	#home {
+		height: 100%;
+		padding-bottom: 80px;
+	}
+}
+
+
+/*-------------------------------------------------------------------*/
+/* tablet */
+
+
+@media (min-width: 768px) { 
+	/*-------------------------------------------------------------------*/
+	/* home */
+	#home {
+		height: 100%;
+		padding-bottom: 90px;
+	}
+	#presentation h1{
+		font-size: 7vmin;
+	}
+	#presentation h2{
+		font-size: 5vmin;
+	}
+	#profil{
+		height: 60vmin;
+		margin-top: 10px;
+	}
+	/*-------------------------------------------------------------------*/
+	/* row job */
+	#rowjob{
+		position: relative;
+		top: -30px;
+		font-size: 5vw;
+	} 
+	/*-------------------------------------------------------------------*/
+	/* row devices */
+	#devices {
+		position: relative;
+		top: -30px;
+		Line-Height: 1;
+	}
+	#computer {
+		width: 100%;
+	}
+	#tablet {
+		width: 45%;
+	}
+	#mobile {
+		width: 45%;
+	}
+	#coltablet{
+		margin-top: 2.75%;
+	}
+	#colmobile{
+		margin-top: 5.5%;	
+	}
+	.ipad{
+		stroke-width:10px;
+	}
+	/*-------------------------------------------------------------------*/
+	/* modal contact */
+	#rowcontact{
+		margin-top: 0px;
+	}
+	#rowcontact h3{
+		font-size: 30px;
+	}
+	.btn {
+		width: 200px;
+		height: 45px;
+		font-size:20px;
+		margin-top: 10px;
+	}
+	/*-------------------------------------------------------------------*/
+	/* modal */
+	#close{
+		margin-top: 40px;
+		height: 60px;
+	}
+	#form-container{
+		margin-top: 30px;
+	}
+	.form-top-left {
+		padding-top: 20px;
+	}
+	.spacer{
+		margin-top: 30px;
+	}
+	#name{
+		margin-top: 0px;
+	}
+	.header-content-2{
+		margin-top: 40px;
+	}
+	#message{
+		height: 200px;
+		margin-bottom: 20px;
+	}
+	.send-2{
+		font-size: 20px;
+		height: 45px;
+		width: 200px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 970px) { 
+	.form1-center{
+	margin-left: 0px;
+	}
+}
+/*-------------------------------------------------------------------*/
+/* laptop */
+
+
+@media (min-width: 970px) { 
+	/*-------------------------------------------------------------------*/
+	/* home */
+	#profil{
+		margin-top: 85px;
+		height: 70vmin;
+	}
+	#presentation h1{
+		font-size: 4vw;
+		margin-top: 73px;
+	}
+	#presentation h2{
+		font-size: 3vw;
+	}
+	/*-------------------------------------------------------------------*/
+	/* row job */
+	#rowjob{
+		width: 100%;
+		position: absolute;
+		top: 450px;
+		font-size: 2.5vw;
+	} 
+	/*-------------------------------------------------------------------*/
+	/* row devices */
+	.imac{
+		stroke-width:10px;
+	}
+	.ipad{
+		stroke-width:4px;
+	}
+	#devices {
+		width: 100%;
+		position: absolute;
+		top: 180px;
+	}
+	#computer {
+		width: 80%;
+		max-height: 200px;
+	}
+	#tablet {
+		width: 55%;
+		max-height: 160px;
+	}
+	#mobile {
+		width: 65%;
+		max-height: 110px;
+	}
+	#coltablet{
+		text-align: left;
+	}
+	#colmobile{
+		margin-left: -3%;
+		margin-top: 6.25%;
+	}
+	/*-------------------------------------------------------------------*/
+	/* modal contact */
+	#rowcontact h3{
+		font-size: 40px;
+	}
+	
+	/*-------------------------------------------------------------------*/
+	/* modal */
+	#close{
+		margin-top: 10px;
+	}
+	#form-container h3{
+		font-size: 40px;
+	}
+	.form-top-right {
+		font-size: 70px;
+	}
+	.spacer{
+		margin-top: 0px;
+	}
+	.header-content-2{
+		margin-top: 20px;
+	}
+
+}
+
